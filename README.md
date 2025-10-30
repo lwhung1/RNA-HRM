@@ -1,6 +1,6 @@
 # Hierarchical reasoning pipeline — RNA workflow & pseudocode
 
-A focused, copyable implementation blueprint for applying **Hierarchical Reasoning Models (HRMs)** to RNA 3D structure prediction. Contains a workflow diagram, modular pseudocode, loss functions, MD-integration notes, and a practical checklist to get started.
+A focused, copyable implementation blueprint for applying **Hierarchical Reasoning Models (HRMs)** to RNA 3D structure prediction. Contains a workflow diagram, modular pseudocode, loss functions, MD-integration notes, and a practical checklist to get started. The 'rna_hrm_skeleton.py' provides a pytorch-based framwork for further development.
 
 ---
 
