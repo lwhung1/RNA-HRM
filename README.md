@@ -8,7 +8,7 @@ A focused, copyable implementation blueprint for applying **Hierarchical Reasoni
 
 ```mermaid
 flowchart TD
-  A[Input: Sequence + optional covariation/MSA / experimental constraints] --> B[Level 1 Sequence Encoding]
+  A["Input: Sequence + optional covariation/MSA / experimental constraints"] --> B["Level 1 Sequence Encoding"]
   B --> C[Level 2: Secondary structure (pairing map)]
   C --> D[Level 3: Motif extraction & tertiary contact prediction]
   D --> E[Level 4: Coarse 3D Layout (motif frames & stem orientations)]
