@@ -6,7 +6,7 @@ A focused, copyable implementation blueprint for applying **Hierarchical Reasoni
 
 # Workflow (Mermaid)
 
-#```mermaid
+```mermaid
 
 flowchart TD
   A[Input: Sequence + optional covariation/MSA / experimental constraints] --> B[Level 1: Sequence Encoding]
