@@ -11,9 +11,9 @@ flowchart TD
   A[Input: Sequence + optional covariation/MSA / experimental constraints] --> B[Level 1 Sequence Encoding]
   B --> C[Level 2: Secondary structure -pairing map-]
   C --> D[Level 3: Motif extraction & tertiary contact prediction]
-  D --> E[Level 4: Coarse 3D Layout (motif frames & stem orientations)]
-  E --> F[Level 5: Atomistic refinement (equivariant GNN / diffusion)]
-  F --> G[Physics-based refinement (ions, MD)]
+  D --> E[Level 4: Coarse 3D Layout -motif frames & stem orientations-]
+  E --> F[Level 5: Atomistic refinement -equivariant GNN / diffusion-]
+  F --> G[Physics-based refinement -ions, MD-]
   G --> H[Functional / ensemble reasoning & ligand binding]
   H --> I[Output: final 3D ensemble + per-residue uncertainty]
 
