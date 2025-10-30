@@ -17,7 +17,14 @@ flowchart TD
   G --> H[Functional / ensemble reasoning & ligand binding]
   H --> I[Output: final 3D ensemble + per-residue uncertainty]
 
+  subgraph Cross-scale
+    B <--> C
+    C <--> D
+    D <--> E
+    E <--> F
+  end
 
+  style Cross-scale stroke-dasharray: 5 5
 ```
 
 ---
